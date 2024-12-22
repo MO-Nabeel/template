@@ -1,0 +1,282 @@
+:root {
+    --header-color: rgb(1, 12, 32);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100vh;
+}
+
+.navigation-bar h1 {
+    font-size: 35px;
+    font-weight: 900;
+    color: white;
+    background-color: var(--header-color);
+}
+
+header {
+    width: 100%;
+}
+
+.head-content {
+    background-color: var(--header-color);
+    width: 100%;
+    height: 100vh;
+}
+
+.content {
+    height: 100vh;
+    text-align: justify;
+    margin-left: 150px;
+    margin-top: 70px;
+}
+
+.content p {
+    font-weight: 500;
+}
+
+
+
+.bu-1 {
+    width: 180px;
+    height: 50px;
+    border: 1px solid rgb(255, 0, 0);
+    background-color: red;
+    color: white;
+}
+
+.bu-1:hover {
+    background-color: transparent;
+    border-color: red;
+    color: red;
+}
+
+.bu-2 {
+    width: 180px;
+    height: 50px;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+
+.bu-2:hover {
+    background-color: transparent;
+    border-color: rgb(255, 255, 255);
+    border-color: black;
+    color: rgb(255, 255, 255);
+}
+
+#section-1 {
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.sec1-content {
+    margin-top: 100px;
+}
+
+.sec1-content h2 {
+    font-weight: 700;
+}
+
+.sec1-content p {
+    font-weight: 500;
+}
+
+.sec-1-but .bu-3 {
+    width: 180px;
+    height: 50px;
+    border: 1px solid black;
+    background-color: var(--header-color);
+    color: rgb(255, 255, 255);
+    margin-right: 210px;
+}
+
+.sec-1-but .bu-3:hover {
+    background-color: transparent;
+    color: black;
+}
+
+#section-2 {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.sec2-content {
+    width: 100%;
+    height: 100vh;
+}
+
+.line {
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 230px;
+    height: 2px;
+}
+
+.sec2-content h3 {
+    text-align: justify;
+}
+
+#section-3 {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.sec3-content h1 {
+    font-weight: 900;
+}
+
+.sec3-content p {
+    text-align: center;
+    padding: 40px;
+    font-weight: 500;
+}
+
+.sec3-btn button {
+    width: 180px;
+    height: 50px;
+    border: 1px solid rgb(255, 0, 0);
+    background-color: red;
+    color: white;
+}
+
+.sec3-btn button:hover {
+    background-color: transparent;
+    border-color: red;
+    color: red;
+}
+
+#section-4 {
+    width: 100%;
+}
+
+.Freelancer-logo {
+    border: 1px solid black;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: var(--header-color);
+}
+
+.Freelancer-logo:hover {
+    background-color: rgba(1, 170, 236, 0.788);
+}
+
+.details-head h5 {
+    font-weight: 800;
+}
+
+.details-head h2 {
+    font-weight: 700;
+}
+
+#section-5 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#section-5 h1 {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.test-box {
+    width: 700px;
+    height: 250px;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0px 1px 5px;
+    padding: 20px;
+    margin-left:100px;
+}
+
+.test-box h3 {
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.test-box p {
+    font-weight: 600;
+    text-align: center;
+}
+
+.test-box i {
+    font-weight: 800;
+}
+
+#footer-1 {
+    width: 100%;
+    margin-top: 90px;
+    background-color: var(--header-color);
+}
+
+.logo-container {
+    width: 100%;
+    height: 70px;
+    justify-content: space-between;
+}
+
+.news input {
+    width: 250px;
+    height: 40px;
+}
+
+.news button {
+    width: 150px;
+    height: 35px;
+    border: 1px solid rgb(255, 0, 0);
+    background-color: red;
+    color: white;
+    margin-top: 10px;
+}
+
+.news button:hover {
+    background-color: transparent;
+    border-color: red;
+    color: red;
+}
+
+.location {
+    padding-top: 100px;
+}
+
+
+
+
+
+
+
+
+@media(max-width:600px){
+    body {
+        overflow-x: hidden;
+        width: 125vh;
+
+    }
+
+    #footer-1 {
+        height: 200vh;
+    }
+}
+@media(min-width 768px){
+    body {
+        overflow-x: hidden;
+    }
+    header {
+        width: 100%;
+    }
+    #footer-1 {
+        height: 200vh;
+    }
+
+
+}
